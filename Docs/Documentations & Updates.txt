@@ -1,0 +1,76 @@
+25/4/2026
+- test mg699R servo with PCA9685 driver.
+- battery and buck converter are working fine.
+
+26/4/2026
+- begin body design
+Parts needed to include:
+	- MG996R Servos *12
+	- Esp32 with shield *1
+	- Lipo Battery *1
+	- small and big converter *1 each
+	- MPU6050 *1
+	- PCA9685 *1
+
+27/4/2026
+- Coxa Joint Completed.
+- Begin Femur and Tibia joint.
+
+16/5/2026
+- first leg completed
+- start 3d printing
+Problems
+- No space for servo's wire
+Fix
+- create a small gap for wire
+
+17/5/2026
+-print the fixed part(servoMount, screwHole, wireHole)
+
+20/5/2026
+- print everything over again
+- add silicon pad at the foot
+Problems
+- size not match
+
+21/5/2026
+- Tibia finished
+- start modeling robot body
+- assemble and calibrate the servos
+
+22/5/2026
+- modeling and print body-coxa holder
+
+26/5/2026
+- Inverse Kinematic TEST(successful)
+- flawlessly navigate through the given coordinates
+
+28/5/2026
+- create DH parameters table(just done it now lol)
+- learning cubic spline interpolation and Bezier curve for foot path trajectory
+
+30/5/2026
+- make the foot move in a smooth straight line by interpolating point.
+
+31/5/2026
+- make a simple walking cycle from cycloid curve.
+- still don't know how to control direction *sad );
+
+5/6/2026
+- power switch circuit
+- lot of soldering fails(i'm not good at soldering)
+
+7/9/2026
+- print all 4 legs
+
+18/9/2026
+- assembled all 4 legs
+- order more components
+- continue the body model
+
+20/9/2026
+- finished the lower body plate
+
+21/9/2026
+- finished the upper body plate
+- new wire management
